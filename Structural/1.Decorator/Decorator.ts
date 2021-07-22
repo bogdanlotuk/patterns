@@ -18,7 +18,7 @@ class MSI implements IMotherboard {
     }
 }
 
-class DecoratorIntelCPU {
+class DecoratorIntelCPU implements IMotherboard{
     price
     model
     motherboard

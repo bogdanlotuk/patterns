@@ -1,11 +1,9 @@
 interface IComputer {
     build(): Computer;
 }
-
 class Computer {
     monitor: string;
 };
-
 class ComputerBuilder implements IComputer {
     private computer;
     constructor (){

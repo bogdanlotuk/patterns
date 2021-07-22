@@ -17,7 +17,7 @@ class Trip {
 }
 
 class TripFacade {
-    trip
+    private trip
     constructor(trip) {
         this.trip = trip;
     }

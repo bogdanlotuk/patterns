@@ -1,22 +1,22 @@
-class MemoryHdd {
+class MemoryHDD {
     interfaceHDD() {
         console.log('This computer has HDD');
     }
 };
 
-class MemorySsd {
+class MemorySSD {
     interfaceSSD() {
         console.log('This computer has SSD');
     }
 };
 
-class AdapterSsd {
+class AdapterSSD {
     private memory
     constructor(memory) {
         this.memory = memory;
     }
-    interfaceHdd() {
-        this.memory.interfaceSsd();
+    interfaceHDD() {
+        this.memory.interfaceSSD();
     }
 };
 
@@ -29,9 +29,9 @@ class Computer {
 };
 
 const myComputer = new Computer();
-const oldMemory = new MemoryHdd();
+const oldMemory = new MemoryHDD();
 console.log(myComputer.startComputer(oldMemory));
 
-// const myComputer2 = new Comp();
-// const memoryAdapter1 = new AdapterSsd(new MemorySsd());
-// console.log(myComp2.startComputer(memoryAdapter));
+const myComputerWithSSD = new Computer();
+const memoryAdapter = new AdapterSSD(new MemorySSD());
+console.log(myComputerWithSSD.startComputer(memoryAdapter));
