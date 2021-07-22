@@ -1,0 +1,34 @@
+<mxfile>
+    <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+        <mxGraphModel dx="433" dy="320" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Gnr0yDt9QQ8g0LjmNMmj-32" value="Hryvnia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="339" y="211" width="200" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="UhS0VNZAT0HBFiHcXleB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=openThin;endFill=0;endSize=12;" parent="Gnr0yDt9QQ8g0LjmNMmj-32" source="Gnr0yDt9QQ8g0LjmNMmj-33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="235" y="39"/>
+                            <mxPoint x="235" y="17"/>
+                        </Array>
+                        <mxPoint x="200" y="17" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Gnr0yDt9QQ8g0LjmNMmj-33" value="- instance: Hryvnia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Gnr0yDt9QQ8g0LjmNMmj-32" vertex="1">
+                    <mxGeometry y="26" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gnr0yDt9QQ8g0LjmNMmj-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Gnr0yDt9QQ8g0LjmNMmj-32" vertex="1">
+                    <mxGeometry y="52" width="200" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gnr0yDt9QQ8g0LjmNMmj-35" value="+ getPay(): Hryvnia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Gnr0yDt9QQ8g0LjmNMmj-32" vertex="1">
+                    <mxGeometry y="60" width="200" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gnr0yDt9QQ8g0LjmNMmj-62" value="Singleton" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=0;spacingTop=0;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="103" width="215" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
